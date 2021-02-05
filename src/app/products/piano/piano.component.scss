@@ -1,0 +1,99 @@
+.title{
+  
+  padding-left: 50px;
+}
+.products-column{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    .buy{
+      display: flex;
+      flex-direction: column;
+      img{
+        height: 250px;
+        width: 500px;
+      
+      }
+      .products{
+      box-shadow: 0 4px 8px 0 rgba(78, 78, 78, 0.2);
+      position: relative;
+      display: block;
+      padding: 10px 80px;
+      
+      }
+      .overlay{
+      
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 150px;
+        width: 50px;
+        opacity: 0;
+        transition: .5s ease;
+        padding: 10px 80px;
+      }
+      .products:hover .overlay {
+        opacity: 1;
+      }
+    
+      .shop{
+      display: flex;
+      justify-content: space-around;
+      .buttons{
+        display: flex;
+        justify-content: flex-end;
+      }
+      
+      .Button {
+        background-color: #ff8800;
+        border: none;
+        color: rgb(0, 0, 0);
+        padding: 4px 8px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+      }
+      
+      .button1 {
+        background-color: white; 
+        color: black; 
+        border: 2px solid #ff9900;
+        border-radius: 15px;
+      }
+      
+      
+      .button1:hover {
+        background-color: #ff9900;
+        color: rgb(0, 0, 0);
+      }
+      }
+    }
+  }  
+  
+  
+  
+  
+  
+  
+  
+  
+  .input{
+   
+    padding: 6px 10px;
+    margin: 4px 0;
+    
+    box-sizing: border-box;
+    border: 2px solid #ff9900;
+    border-radius: 8px;
+  }
+  
+  

@@ -1,0 +1,83 @@
+<h1 class="title" id="guitars">guitars</h1>
+<hr>
+<div class=products-column>
+    <div class="buy">
+        <div class="products">
+            <img src="../../../assets/image/guitars/81itdej9OJL._AC_SL1500_.jpg">
+            <div class="overlay">
+                <img src="../../../assets/image/guitars/812fZwEySgL._AC_SL1500_.jpg">
+            </div>
+        </div>
+        <div class="shop">
+            <input min = 0  max = 10 class="input" type="number" #amount1 #fav1>
+            <div class="buttons">
+                <button class="Button button1" (click)="updateGuitarCart(amount1)">to cart</button>
+                
+                <button class="Button button1"(click)="addToFav(fav1)">favorite</button>
+            </div>
+        </div>
+        <!-- <div style="background-color: aqua;">
+            <p> {{ guitarAmount }} </p>
+             <p> {{amount}} </p> 
+        </div> -->
+    </div>
+
+    <div class="buy">
+        <div class="products">
+            <img src="../../../assets/image/guitars/51gRBH-GC3L._AC_SL1200_.jpg">
+            <div class="overlay">
+                <img src="../../../../../assets/image/guitars/61CzVmK7EvL._AC_SL1500_.jpg">
+            </div>
+        </div>
+        <div class="shop">
+            <input min = 0  max = 10 class="input" type="number" #amount2 #fav2>
+            <div class="buttons">
+                <button class="Button button1" (click)="updateElectricGuitarCart1(amount2)">to cart</button>
+                <button class="Button button1"(click)="addToElectricGuitar1Fav(fav2)">favorite</button>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="buy">
+        <div class="products">
+            <img src="../../../assets/image/guitars/612aLL5qRYL._AC_SL1500_.jpg">
+            <div class="overlay">
+                <img src="../../../assets/image/guitars/61Q-QFCaJqL._AC_SL1500_.jpg">
+            </div>
+        </div>
+        <div class="shop">
+            <input  min = 0  max = 10 class="input" type="number" #amount3 #fav3>
+            <div class="buttons">
+                <button class="Button button1" (click)="updateElectricGuitarCart2(amount3)">to cart</button>
+                <button class="Button button1"(click)="addToElectricGuitar2Fav(fav3)">favorite</button>
+            </div>
+        </div>
+   
+    </div>
+
+    
+    <div class="buy">
+        <div class="products">
+            <img src="../../../assets/image/guitars/71iUW0pprpL._AC_SL1500_.jpg">
+            <div class="overlay">
+                <img src="../../../assets/image/guitars/614FZMhaZJL._AC_SL1500_.jpg">
+            </div>
+        </div>
+        <div class="shop">
+            <input min = 0  max = 10 class="input" type="number" #amount4 #fav4>
+            <div class="buttons">
+                <button class="Button button1" (click)="updateLesPaulGuitarCart(amount4)">to cart</button>
+                <button class="Button button1"(click)="addToLesPaulGuitarFav(fav4)">favorite</button>
+            </div>
+        </div>
+    
+    </div>
+    
+
+    
+    
+</div>
+
+
+

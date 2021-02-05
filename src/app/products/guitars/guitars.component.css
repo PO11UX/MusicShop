@@ -1,0 +1,113 @@
+.title {
+  padding-left: 50px;
+}
+
+.products-column {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.products-column .buy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.products-column .buy img {
+  height: 350px;
+}
+
+.products-column .buy .products {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(78, 78, 78, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(78, 78, 78, 0.2);
+  position: relative;
+  display: block;
+  padding: 10px 80px;
+}
+
+.products-column .buy .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 350px;
+  width: 50px;
+  opacity: 0;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  padding: 10px 80px;
+}
+
+.products-column .buy .products:hover .overlay {
+  opacity: 1;
+}
+
+.products-column .buy .shop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.products-column .buy .shop .bottons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.products-column .buy .shop .Button {
+  background-color: #ff8800;
+  border: none;
+  color: black;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.products-column .buy .shop .button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #ff9900;
+  border-radius: 15px;
+}
+
+.products-column .buy .shop .button1:hover {
+  background-color: #ff9900;
+  color: black;
+}
+
+.input {
+  padding: 6px 10px;
+  margin: 4px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 2px solid #ff9900;
+  border-radius: 8px;
+}
+/*# sourceMappingURL=guitars.component.css.map */

@@ -1,0 +1,29 @@
+.footer{
+    margin-top: 200px;
+    padding: 80px;
+    background-color: #727272;
+    .footerText{
+        display: flex;
+        justify-content: space-between;
+        font-size: 20px;
+        
+        color: blanchedalmond;
+        .legal{
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            li{
+                font-size: 15px;
+                margin-top: 15px;
+            }
+        }
+        .legalImg{
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            display: flex;
+           
+            
+        }
+    }
+}

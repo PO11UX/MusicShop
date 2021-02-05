@@ -1,0 +1,113 @@
+.navbar {
+  background-color: #ceb3b3;
+  top: 100px;
+  right: 0;
+  margin: 0;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+}
+
+.navbar .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.navbar .dropdown .dropbtn {
+  background-color: #727272;
+  color: white;
+  padding: 16px;
+  width: 600px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  text-align: start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar .dropdown .dropbtn .arrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-self: flex-end;
+}
+
+.navbar .dropdown .dropbtn .dropbtn:hover, .navbar .dropdown .dropbtn .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.navbar .dropdown-content {
+  list-style-type: none;
+  display: none;
+  position: absolute;
+  background-color: #ff9c2b;
+  width: 600px;
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.navbar .dropdown-content a {
+  color: black;
+  padding: 6px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.navbar .product {
+  font-size: 20px;
+}
+
+.navbar .dropdown a:hover {
+  background-color: #ddd;
+}
+
+.navbar .show {
+  display: block;
+}
+
+.navbar .search {
+  font-size: 16px;
+  background-color: #f0f0f0;
+  padding: 16px;
+  width: 919px;
+  border: none;
+}
+
+.Logo1 {
+  margin: 0;
+  padding: 0;
+  width: 35%;
+  height: 50px;
+}
+
+.background1 {
+  background-color: #ff9c2b;
+  margin: 0;
+  padding: 0;
+  width: 75%;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-self: flex-end;
+}
+/*# sourceMappingURL=navbar.component.css.map */
