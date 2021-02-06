@@ -16,7 +16,7 @@
     .dropdown {
       position: relative;
       display: inline-block;
-      
+     
     
     .dropbtn {
       background-color: #727272;
@@ -39,20 +39,21 @@
       }
     }
   }
-    
+  
     
     .dropdown-content {
       list-style-type: none;
       display: none;
       position: absolute;
       background-color: #ff9c2b;
-      width: 600px;
+      width: 100%;
       padding: 0;
       margin: 0;
       overflow: auto;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
       z-index: 1;
     }
+   
     
     .dropdown-content a {
       color: black;
@@ -69,15 +70,17 @@
     .dropdown a:hover {background-color: #ddd;}
     
     .show {display: block;}
-      
+    form{
+    width: 100%;
     .search{ 
       font-size: 16px;
       background-color: #f0f0f0;
  
       padding: 16px;
-      width: 919px;
+      width: 100%;
       border: none;
-    }      
+    } 
+  }     
 }
 .Logo1{
   
