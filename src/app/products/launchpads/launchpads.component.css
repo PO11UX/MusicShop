@@ -79,6 +79,7 @@
 .products-column .buy .shop .Button {
   background-color: #000000;
   border: none;
+  outline: none;
   color: black;
   padding: 4px 8px;
   text-align: center;
@@ -106,6 +107,7 @@
 .input {
   padding: 6px 10px;
   margin: 4px 0;
+  outline: none;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border: 2px solid #ff9900;
