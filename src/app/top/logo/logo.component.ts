@@ -9,8 +9,7 @@ import { DataService } from 'src/app/shared/instruments.component';
 })
 export class LogoComponent implements OnInit {
 
-  constructor(private data:DataService ) {
-   }
+  constructor(private data:DataService ) {}
   amount : number;
   Fav : number;
   

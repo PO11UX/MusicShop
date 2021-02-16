@@ -49,6 +49,7 @@
       .Button {
         background-color: #ff8800;
         border: none;
+        outline: none;
         color: rgb(0, 0, 0);
         padding: 4px 8px;
         text-align: center;
@@ -88,7 +89,7 @@
    
     padding: 6px 10px;
     margin: 4px 0;
-    
+    outline: none;
     box-sizing: border-box;
     border: 2px solid #ff9900;
     border-radius: 8px;
